@@ -1,5 +1,5 @@
 # Machine Learning
-This is the documentation for ML models. This model attempts to solve VRP problem, We use Reinforcement Learning - Deep Q Learning Unsupervised Learning for this problem.
+This is the documentation for ML models. This model attempts to solve VRP problem, We use Reinforcement Learning - Deep Q Learning for this problem.
 
 ## Inputs and Outputs
 1. The inputs are longitude and latitude coordinates, which will be taken from Open Street Maps(OSM) API
@@ -15,7 +15,7 @@ There are few files in this project, the main one is vrp_dqn_model.tflite which 
 5. vis = this contains the visualization algorithm using folium which will be in html file, this is a documentation that the algorithm works and can be used as reference for MD as the visualization code.
 
 ## Notes
-1. As Reinforcement Learning is Unsupervised Learning, there wont be a training or test datasets needed.
+1. As Reinforcement Learning is neither Supervised or Unsupervised Learning, there wont be a training or test datasets needed.
 2. For running the model on cloud, make sure that logic.py and main.py are included as well as .tflite or .keras file (Make sure the algorithms/code inside logic.py and main.py are already stored in cloud before running the tflite or keras file).
 
 ## Important!
