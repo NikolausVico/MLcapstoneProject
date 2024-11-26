@@ -15,4 +15,11 @@ There are few files in this project, the main one is vrp_dqn_model.tflite which 
 5. vis = this contains the visualization algorithm using folium which will be in html file, this is a documentation that the algorithm works and can be used as reference for MD as the visualization code.
 
 ## Notes
-As Reinforcement Learning is Unsupervised Learning, there wont be a training or test datasets needed
+1. As Reinforcement Learning is Unsupervised Learning, there wont be a training or test datasets needed.
+2. For running the model on cloud, make sure that logic.py and main.py are included as well as .tflite or .keras file (Make sure the algorithms/code inside logic.py and main.py are already stored in cloud before running the tflite or keras file).
+
+## Important!
+The input coordinates for testing are still included in this models, so there are still works to be done, feel free to contact me
+
+# Contact
+Nikolaus Vico Cristianto (081938322829)
