@@ -21,5 +21,9 @@ There are few files in this project, the main one is vrp_dqn_model.tflite which 
 ## Important!
 The input coordinates for testing are still included in this models, so there are still works to be done, feel free to contact me
 
+## Things to improve
+1. Make the main.py able to take input coordinates from user.
+2. The main algorithm could take a long time to run (approx. 1 minute), so optimization is still needed.
+
 # Contact
 Nikolaus Vico Cristianto (081938322829)
