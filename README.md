@@ -13,3 +13,6 @@ There are few files in this project, the main one is vrp_dqn_model.tflite which 
 3. main = this includes the algorithm to convert the coordinates gotten from the user to distance_matrix which is crucial for the logic alogirithms. This must be included.
 4. test = this is for testing the tflite model, this is not neccesary to be included as this is file to check wheter or not the tflite is successfuly exported.
 5. vis = this contains the visualization algorithm using folium which will be in html file, this is a documentation that the algorithm works and can be used as reference for MD as the visualization code.
+
+## Notes
+As Reinforcement Learning is Unsupervised Learning, there wont be a training or test datasets needed
