@@ -1,5 +1,5 @@
 # Machine Learning
-This is the documentation for ML models. This model attempts to solve VRP problem, We use Reinforcement Learning - Deep Q Learning for this problem.
+This is the documentation for ML models. This model attempts to solve VRP problem, We use Reinforcement Learning - Deep Q Network for this problem.
 
 ## Inputs and Outputs
 1. The inputs are longitude and latitude coordinates, which will be taken from Open Street Maps(OSM) API
