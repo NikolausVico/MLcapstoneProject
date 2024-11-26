@@ -11,7 +11,7 @@ There are few files in this project, the main one is vrp_dqn_model.tflite which 
 1. libaries = this file contains the library used for this project to work, it is not needed to import this file as importing libraries will be done in each files.
 2. logic = this contains algoritms needed to run the model, this includes ReplayBuffer(), VRPAgent(), train_vrp_agent(). This file is a neccesity for the model to work, so this must be included when running the model
 3. main = this includes the algorithm to convert the coordinates gotten from the user to distance_matrix which is crucial for the logic alogirithms. This must be included.
-4. test = this is for testing the tflite model, this is not neccesary to be included as this is file to check wheter or not the tflite is successfuly exported.
+4. test = this is for testing the tflite model, this is not neccesary to be included as this is file to check whether or not the tflite is successfuly exported.
 5. vis = this contains the visualization algorithm using folium which will be in html file, this is a documentation that the algorithm works and can be used as reference for MD as the visualization code.
 
 ## Notes
