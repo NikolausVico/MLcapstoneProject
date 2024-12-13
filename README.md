@@ -27,3 +27,6 @@ The input coordinates for testing are still included in this models, so there ar
 
 # Contact
 Nikolaus Vico Cristianto (081938322829)
+
+# UPDATE DECEMBER 2024
+The only needed file is the main.py, now the main.py includes all the algorithms needed for producing the routes.
